@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(110585-blue-and-purple-blurred-background-vector.jpg);
+    background-position: center;
+    background-size: 3000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginbox{
+    border-radius: 41px;
+    width: 400px;
+    height: 450px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca69);
+    box-shadow:  12px 12px 100px #5a5a5a, -12px -12px 100px #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailsenha input{
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+}
+
+.emailsenha input::placeholder {
+    color: #ffffff;
+    justify-content: center;
+}
+
+.btn{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+.loginbox img{
+    width: 150px;
+    height: auto;
+}
+
+.login{
+    padding: 10px;
+    width: 300px;
+    border-radius: 25px;
+    margin-top: 30px;
+    border: none;
+    background: #6ada16;
+    transition: background 0.3s ease;
+    color: #ffffff;
+}
+
+.login:hover{
+    background: #008000;
+}
+
+.emailsenha{
+    margin-left: 50px;
+}
+
+.remember-pass{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    color: white;
+    font-size: 13px;
+
+}
+
+.forgot {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-top: 4px;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
